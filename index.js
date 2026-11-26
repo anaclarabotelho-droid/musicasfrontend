@@ -1,4 +1,4 @@
-const urlBackend = "https://projetomusgas.vercel.app"
+const urlBackend = "https://musicas-dun.vercel.app"
 
 const listaMusicas = document.getElementById("listaMusicas")
 
@@ -24,7 +24,7 @@ async function buscarMusicas() {
 buscarMusicas()
 
 async function apagarMusica(id) {
-    const confirmou = confirm("Apaga não, Zé!")
+    const confirmou = confirm("Deseja Apagar a música?")
 
     if (!confirmou) {
         return
